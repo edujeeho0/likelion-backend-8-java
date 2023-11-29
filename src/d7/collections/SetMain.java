@@ -34,6 +34,20 @@ public class SetMain {
         System.out.println(skillSet.addAll(skillList));  // false
         System.out.println(skillSet);
 
+        List<String> thirdSkills = new ArrayList<>();
+        thirdSkills.add("javascript");
+        thirdSkills.add("typescript");
+        thirdSkills.add("react");
+        thirdSkills.add("python");
+        thirdSkills.add("java");
+        // 아이템 제거하기
+        thirdSkills.remove("typescript");
+        System.out.println(skillSet.removeAll(thirdSkills));
+        System.out.println(skillSet);
+        // 집합 비우기
+        skillSet.clear();
+        System.out.println(skillSet);
+
         List<Pigeon> listHoles = new ArrayList<>();
         Set<Pigeon> setHoles = new HashSet<>();
 
