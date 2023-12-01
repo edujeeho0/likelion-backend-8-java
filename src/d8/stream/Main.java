@@ -26,8 +26,8 @@ public class Main {
         // 람다 내부에선 final 변수만 사용 가능
         final int a = 10;
         int b = 20;
-        // 함수가 실행될 때 해당 변수에 접근할 수 있다는걸
-        // 보장할 수 없다.
+        // 함수가 실행될 때 해당 변수에 접근할 수 있다는걸 만든다면 만들수야 있지만...
+        // 함수의 기능이 예측이 불가해지기 때문에 변경 가능한 변수를 허용하지 않는다.
         NoArgRetFunction multilineLambda = () -> {
             System.out.println(a);
             // b = 30;  // error
