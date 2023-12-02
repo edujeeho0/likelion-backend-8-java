@@ -113,7 +113,7 @@ public class D3ControlStatements {
             System.out.println("not factor");
         }
 
-        String input = "scanner.nextLine()";
+        String input = scanner.nextLine();
         // (확인하고 싶은 값)
         switch (input) {
             case "w":  // input == "w"
@@ -149,7 +149,7 @@ public class D3ControlStatements {
 
         // while
         // 대출금 천만원
-        int loan = 1716;
+        int loan = 1717;
         int months = 0;
         // 대출금 남았니?
         while (loan > 0) {
