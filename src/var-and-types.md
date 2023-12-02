@@ -1,10 +1,21 @@
 # 변수와 자료형
 
-- [변수](#변수)
-- [자료형](#자료형)
-- [Scanner](#Scanner)
-- [문자열 응용](#문자열-응용)
-- [배열](#배열)
+<!-- TOC -->
+* [변수와 자료형](#변수와-자료형)
+  * [변수](#변수)
+  * [자료형](#자료형)
+    * [정수](#정수)
+    * [실수](#실수)
+    * [boolean](#boolean)
+    * [char - 문자](#char---문자)
+    * [String - 문자열](#string---문자열)
+  * [`Scanner`](#scanner)
+    * [`Scanner` 사용 시 유의점](#scanner-사용-시-유의점)
+  * [문자열 응용](#문자열-응용)
+    * [Escape Sequence](#escape-sequence)
+    * [String Formatting](#string-formatting)
+  * [배열](#배열)
+<!-- TOC -->
 
 ## 변수
 
