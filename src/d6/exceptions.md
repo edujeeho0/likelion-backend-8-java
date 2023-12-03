@@ -1,5 +1,11 @@
 # 예외처리
 
+<!-- TOC -->
+* [예외처리](#예외처리)
+  * [`try` - `catch` - `finally`](#try---catch---finally)
+  * [`Throwable` & `throws`](#throwable--throws)
+<!-- TOC -->
+
 예외(`Exception`)는 프로그램 실행 중 예상하지 못한 상황을 의미한다.
 예외처리는 이런 상황에 대처하여 원래의 흐름으로 복귀하는 기법을 의미한다.
 
